@@ -1,4 +1,6 @@
 import { Calendar, Clock, MapPin, Phone, Mail, MessageSquare, Activity, Users, Brain, Award } from 'lucide-react';
+import logo from './assets/logo.png';
+import fondo from './assets/fondo.png';
 
 function App() {
   return (
@@ -7,7 +9,7 @@ function App() {
       <header className="relative h-[600px]">
         <div className="absolute inset-0">
           <img
-            src="/src/fondo.png"
+            src={fondo}
             alt="Consultorio"
             className="w-full h-full object-cover"
           />
@@ -74,7 +76,7 @@ function App() {
             </div>
             <div>
               <img
-                src="/src/logo.png"
+                src={logo}
                 alt="Fono Adri"
                 className="rounded-lg shadow-lg"
               />
