@@ -29,7 +29,7 @@ function App() {
       {/* Services Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Servicios</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <MessageSquare className="w-12 h-12 text-blue-600 mb-4" />
@@ -39,7 +39,7 @@ function App() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <Brain className="w-12 h-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Desarrollo del Lenguaje</h3>
-              <p className="text-gray-600">Estimulación y tratamiento de retrasos en el desarrollo del lenguaje.</p>
+              <p className="text-gray-600">Estimulación temprana y tratamiento de retrasos en el desarrollo del lenguaje.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <Users className="w-12 h-12 text-blue-600 mb-4" />
@@ -55,7 +55,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">¿Por qué elegirnos?</h2>
+              <h2 className="text-3xl font-bold mb-6">¿Por qué elegir a la Fono Adri?</h2>
               <div className="space-y-4">
               <div className="flex items-start gap-4">
                   <Award className="w-6 h-6 text-blue-600 flex-shrink-0" />
@@ -120,18 +120,18 @@ function App() {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <Clock className="w-5 h-5 text-blue-600" />
-                    <p>Lunes a Viernes: 8:00 - 19:00</p>
+                    <p>Lunes a Jueves: 8:00 - 18:00 (Proximamente)</p>
                   </div>
                   <div className="flex items-center gap-2">
                     <Calendar className="w-5 h-5 text-blue-600" />
-                    <p>Sábados: 8:00 - 13:00</p>
+                    <p>Sábados: 8:00 - 18:00</p>
                   </div>
                 </div>
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4">Agendar Cita</h3>
                 <p className="text-gray-600">
-                  Llámenos o envíenos un email para programar su consulta. También puede visitarnos en nuestro consultorio.
+                  Llama o envia un mensaje por Whatsapp y agenda una consulta. Te espero en el consultorio.
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-blue-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p>© 2024 Fono Adri. Todos los derechos reservados.</p>
+          <p>© 2025 Fono Adri. Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>
